@@ -1,0 +1,85 @@
+.owl-carousel .item{
+ /* border: 1px solid black; */
+ font-size: 24px;
+ text-align: center;
+ margin-top: 20px;;
+}
+
+.carousel-item {
+    height: 50vh;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.owl-next{
+ float:right;
+}
+.owl-prev{
+ float:left;
+}
+.owl-prev span{
+ font-size: 24px;
+ font-weight: bold;
+}
+.owl-next span{
+ font-size: 24px;
+ font-weight: bold;
+}
+
+
+.product-img {
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.owl-carousel .item {
+    background-color: #f8f9fa; /* light grey background */
+    border-radius: 12px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+    display: block;
+}
+
+/* Product card interactive styling */
+.product-card {
+    background-color: #f8f9fa; /* light grey background */
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    display: block; /* poora card clickable */
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);  /* card hover me upar uthta hai */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* shadow */
+    background-color: #e9f5ff; /* hover me light blue */
+}
+
+.product-card:hover .product-img {
+    transform: scale(1.05); /* image thoda zoom */
+    transition: transform 0.3s ease;
+}
+
+.owl-carousel .item:hover {
+    transform: translateY(-5px); /* card upar uthta */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* shadow */
+    background-color: #e9f5ff; /* light blue on hover */
+}
+
+.owl-carousel .item img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.owl-carousel .item:hover img {
+    transform: scale(1.05); /* image zoom on hover */
+}
